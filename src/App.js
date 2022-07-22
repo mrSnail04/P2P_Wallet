@@ -19,14 +19,8 @@ function App () {
         <Route path="crypto" element={<BuyCrypto/>}>
            <Route path=":cryptoOption/:currencyBuy/:currencySell" element= {<BuyCrypto/>} />
         </Route>
-        <Route path="*" element={<NotFound/>} />
       </Route>
     </Routes>
   )
 }
 export default App
-const NotFound = () => {
-  return (
-    <div> 404 </div>
-  )
-}
