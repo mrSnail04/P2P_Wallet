@@ -1,0 +1,46 @@
+{
+  "Design & Brand": [
+    {
+      "id": 0,
+      "title": "3D/Motion Designer",
+      "description": "Remote"
+    },
+    {
+      "id": 1,
+      "title": "DigitalDesigner (Brand)",
+      "description": "Remote"
+    }
+  ],
+  "Engineering": [
+    {
+      "id": 2,
+      "title": "Backend Engineer",
+      "description": "Fully Remote (Europe)"
+    },
+    {
+      "id": 3,
+      "title": "Engineering Manager",
+      "description": "Fully Remote (Europe)"
+    },
+    {
+      "id": 4,
+      "title": "Full Stack Engineer",
+      "description": "Remote (Europe)"
+    }
+  ],
+  "Business Developer": [
+    {
+      "id": 5,
+      "title": "Senior Business Developer Manager",
+      "description": "Remote"
+    }
+  ],
+  "Strategy & Business Operations": [
+    {
+      "id": 6,
+      "title": "Strategy & Business Operations",
+      "description": "(Lisbon, London)"
+    }
+  ]
+
+}

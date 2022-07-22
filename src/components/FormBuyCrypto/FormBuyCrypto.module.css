@@ -1,0 +1,52 @@
+.formBlockWrap {
+  width: 351px;
+}
+
+.titleBlock {
+  display: flex;
+}
+
+.titleButton {
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+}
+
+.titleBuy {
+  width: 120px;
+  margin-right: 50px;
+}
+
+.titleWrap {
+  margin: 35px 0 37px 0;
+  font-family: "Proxima Nova", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 28px;
+  color: #000000;
+}
+.titleWrap.disable {
+  color: #CCCCCC;
+}
+
+.buttonWrap {
+  margin-top: 117px;
+  height: 60px;
+}
+
+.footNote {
+  margin: 15px 0 49px 0;
+  font-family: "Proxima Nova", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #535355;
+}
+
+.summaryBlock {
+  height: 84px;
+}
+
+/*# sourceMappingURL=FormBuyCrypto.module.css.map */

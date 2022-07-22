@@ -1,0 +1,86 @@
+.root{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 27px;
+  padding-right: 50px;
+}
+.mainWrap{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.mainTitleWrap{
+  display: flex;
+  justify-content: center;
+}
+.mainTitle{
+  width: 624px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin-right: 116px;
+  p{
+    font-family: 'Proxima Nova', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+  }
+}
+.trustpilot{
+  display: flex;
+  align-items: center;
+  p{
+    font-family: 'Proxima Nova', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-right: 4px;
+  }
+}
+.imageWrap{
+  position: relative;
+  width: 620px;
+  height: 842px;
+  background: #E8EEFF;
+  border-radius: 25px;
+  img{
+    width: 748px;
+    height: 749px;
+    position: absolute;
+    top: 40px;
+    right: 73px;
+  }
+}
+.getStartedBlock{
+  margin-top: 19px;
+  box-sizing: border-box;
+  text-align: center;
+  height: 334px;
+  width: 1320px;
+  background: #4787F7;
+  border-radius: 25px;
+  padding: 60px 0 66px 0;
+}
+.buttonGetStartedWrap{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 129px 0 128px;
+}
+.buttonGetStartedBlock{
+  width: 301px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 136px;
+  margin-top: 31px;
+}
+.buttonWrap{
+  width: 301px;
+  height: 51px;
+}

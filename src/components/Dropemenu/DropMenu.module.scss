@@ -1,0 +1,41 @@
+.dropdown{
+    display: none;
+}
+.dropdownShow {
+    display: flex;
+    position: relative;
+}
+.dropdownItem{
+    text-decoration: none;
+    padding-left: 13px;
+    display: flex;
+    position: absolute;
+    width: 293px;
+    height: 80px;
+    top: 10px;
+    left: 0;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    div {
+        display: flex;
+        margin-right: 10px;
+        width: 120px;
+        height: 30px;
+        background: #F0F0F0;
+        border-radius: 30px;
+        justify-content: center;
+        align-items: center;
+        span {
+            font-family: 'Proxima Nova', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+        }
+    }
+}

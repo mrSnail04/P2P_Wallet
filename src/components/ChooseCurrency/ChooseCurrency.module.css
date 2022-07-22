@@ -1,0 +1,136 @@
+.titleWrapBlock {
+  display: flex;
+  justify-content: space-between;
+  margin: 35px 0 14px 0;
+}
+
+.titleWrap {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  font-family: "Proxima Nova", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 28px;
+  color: #000000;
+}
+.titleWrap button {
+  height: 15px;
+  width: 13px;
+  border: 0;
+  background-color: #FFFFFF;
+  padding: 0;
+  margin-left: 140px;
+}
+
+.searchBlock {
+  position: relative;
+}
+
+.inputSearch {
+  outline: none;
+  width: 351px;
+  height: 55px;
+  background: #F3F4F5;
+  border: 0;
+  border-radius: 15px;
+  padding-left: 40px;
+  box-sizing: border-box;
+  font-family: "Proxima Nova", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  color: #505052;
+}
+.inputSearch:focus {
+  border: 1px solid #4787F7;
+  padding-left: 39px;
+}
+.inputSearch::-webkit-input-placeholder {
+  font-family: "Proxima Nova", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  color: #505052;
+}
+
+.iconSearch {
+  position: absolute;
+  left: 14px;
+  top: 17px;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+}
+.iconSearch img {
+  width: 20px;
+  height: 20px;
+}
+
+.chooseCryptoBlock {
+  margin-top: 20px;
+}
+
+.titleChooseCrypto {
+  margin: 0 0 10px 0;
+  font-family: "Proxima Nova", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.listCurrency {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonCurrencyBlock {
+  display: flex;
+  align-items: center;
+}
+
+.buttonCurrency {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 54px;
+  margin-top: 10px;
+  padding: 0;
+  background: #FFFFFF;
+  border-radius: 15px;
+  border: 0;
+}
+.buttonCurrency p {
+  margin-left: 17px;
+  font-family: "Proxima Nova", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  color: #000000;
+}
+.buttonCurrency p span {
+  font-weight: 400;
+}
+.buttonCurrency:hover {
+  background: #F3F4F5;
+}
+
+.cryptoIcon {
+  width: 25px;
+  height: 25px;
+  margin-left: 18px;
+}
+
+.arrowIcon {
+  position: absolute;
+  right: 20px;
+  transform: rotate(-90deg);
+}
+
+/*# sourceMappingURL=ChooseCurrency.module.css.map */

@@ -1,0 +1,179 @@
+.root {
+  background-color: #000000;
+  padding-top: 75px;
+  box-sizing: border-box;
+}
+
+.footerWrap {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.footerBlocks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainFooter {
+  display: flex;
+}
+
+.footerBlockOne {
+  padding-right: 66px;
+  border-right: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  padding-bottom: 43px;
+}
+
+.footerBlockTwo {
+  margin-left: 119px;
+  padding-bottom: 43px;
+}
+
+.footerNav {
+  display: flex;
+}
+
+.footerItem {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: "Proxima Nova", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.blockItem {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 64px;
+  justify-content: space-between;
+}
+
+.copyrightBlock {
+  display: flex;
+  flex-direction: column;
+  margin-top: 51px;
+}
+.copyrightBlock p {
+  font-family: "Proxima Nova", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #999899;
+}
+
+.subscribeText {
+  font-family: "Proxima Nova", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.subscribeInput {
+  box-sizing: border-box;
+  outline: none;
+  width: 509px;
+  height: 55px;
+  background: #414141;
+  border-radius: 55px;
+  border: 0;
+  padding-left: 20px;
+  font-family: "Proxima Nova", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.inputLabel {
+  font-family: "Proxima Nova", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+.inputLabel p span {
+  color: #FF3773;
+}
+
+.footerButton {
+  display: flex;
+  margin-top: 28px;
+}
+
+.subscribeButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 22px;
+  width: 241px;
+  height: 55px;
+  background: #FFFFFF;
+  border-radius: 55px;
+}
+.subscribeButton p {
+  font-family: "Proxima Nova", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.blockQuickBuy {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.blockQuickBuy p {
+  margin: 0 0 22px 0;
+  font-family: "Proxima Nova", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.quickBuyWrap {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  border-bottom: 1px solid #FFFFFF;
+  margin-bottom: 32px;
+  padding-bottom: 34px;
+}
+
+.buttonBlock {
+  display: flex;
+}
+
+.button {
+  width: 120px;
+  height: 33px;
+  margin-right: 11px;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  border-radius: 10000px;
+  color: #FFFFFF;
+}
+.button.focus {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+.button:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+/*# sourceMappingURL=Footer.module.css.map */

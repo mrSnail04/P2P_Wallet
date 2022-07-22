@@ -1,0 +1,81 @@
+.aboutWrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.headingFirst {
+  margin: 58px 0;
+}
+
+.description {
+  width: 1191px;
+  text-align: center;
+  font-family: "Proxima Nova", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.infoAbout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 60px 0 60px;
+  width: 1365px;
+  height: 250px;
+  background: #000000;
+  border-radius: 30px;
+}
+
+.infoBlock {
+  height: 120px;
+}
+
+.infoItem {
+  display: table;
+  background: linear-gradient(90deg, #DFF7A0 5%, #C9E3F8, #E4BECF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Proxima Nova", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 50px;
+  margin: 0;
+}
+
+.infoItemDescription {
+  width: 150px;
+  color: #FFFFFF;
+  font-family: "Proxima Nova", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 25px;
+}
+
+.headingSecond {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 1170px;
+  margin-top: 60px;
+}
+.headingSecond p {
+  width: 1190px;
+  margin: 50px 0 91px 0;
+  font-family: "Proxima Nova", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+}
+
+/*# sourceMappingURL=About.module.css.map */

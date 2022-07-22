@@ -1,0 +1,46 @@
+.root{
+  text-decoration: none;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 207px;
+  height: 55px;
+  background: #4787F7;
+  border-radius: 55px;
+  border: 0;
+  cursor: pointer;
+  span{
+    font-family: 'Proxima Nova', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  img{
+    margin-right: 11px;
+  }
+  &.size_large{
+    width: 351px;
+    height: 60px;
+  }
+  &.size_small{
+    width: 207px;
+    height: 55px;
+  }
+  &.size_blockSize{
+    width: 100%;
+    height: 100%;
+  }
+  &.color_White{
+    background: #FFFFFF;
+    span{
+      font-size: 20px;
+      line-height: 24px;
+      color: #000000;
+    }
+  }
+}

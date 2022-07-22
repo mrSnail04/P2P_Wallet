@@ -1,0 +1,29 @@
+.checkboxWrap{
+  display: flex;
+  p{
+    width: 217px;
+    height: 80px;
+    margin: 0 0 0 5px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #999899;
+  }
+}
+.checkbox{
+  width: 24px;
+  height: 24px;
+  border: 1px solid #999899;
+  border-radius: 3px;
+  background-color: #000000;
+}
+.checkbox_checked{
+  width: 24px;
+  height: 24px;
+  border: 1px solid #999899;
+  border-radius: 3px;
+  color: #FFFFFF;
+  background: url(../../assets/icons/checkbox.svg);
+}

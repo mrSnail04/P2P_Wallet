@@ -1,0 +1,58 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 56px 0 49px 0;
+}
+
+.helpWrap {
+  width: 1191px;
+}
+
+.helpHeading p {
+  margin: 23px 0 37px 0;
+  font-family: "Proxima Nova", sans-serif;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.questionsBlock ul {
+  margin: 37px 0 0 0;
+}
+
+.question {
+  margin: 0;
+  font-family: "Proxima Nova", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.answer {
+  margin: 8px 0 0 0;
+  font-family: "Proxima Nova", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.cryptocurrencies ul {
+  margin: 0;
+}
+.cryptocurrencies ul li {
+  font-family: "Proxima Nova", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+/*# sourceMappingURL=Help.module.css.map */

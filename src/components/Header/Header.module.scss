@@ -1,0 +1,57 @@
+.root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+.navWrap{
+    display: flex;
+}
+.logo {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-right: 55px;
+    img{
+        margin-right: 3px;
+    }
+}
+.groupeOneWrap {
+    width: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 590px;
+    &.withSubMenu {
+        position: relative;
+    }
+}
+.groupeTwoWrap {
+    width: 335px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menuWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuItem {
+    text-decoration: none;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'Proxima Nova', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+@media screen and (max-width: 800px) {
+    .menuWrap{
+        display: none;
+    }
+}

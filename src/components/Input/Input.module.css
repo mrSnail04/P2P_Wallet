@@ -1,0 +1,100 @@
+.inputWrap {
+  display: flex;
+  position: relative;
+  width: 351px;
+  box-sizing: border-box;
+  height: 54px;
+  margin: 10px 0 33px 0;
+}
+.inputWrap input {
+  outline: none;
+  box-sizing: border-box;
+  width: 351px;
+  height: 54px;
+  background: #F3F4F5;
+  border-radius: 15px;
+  border: 0;
+  padding: 0 0 0 18px;
+  font-family: "Proxima Nova", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.inputWrap input::-webkit-input-placeholder {
+  font-family: "Proxima Nova", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+}
+.inputWrap input.placeholderColor_Gray::-webkit-input-placeholder {
+  color: #A9A8A9;
+}
+.inputWrap input.placeholderColor_Black::-webkit-input-placeholder {
+  color: #000000;
+}
+.inputWrap input:focus {
+  border: 1px solid #4787F7;
+  padding-left: 17px;
+}
+
+.label {
+  font-family: "Proxima Nova", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.currencyName {
+  box-sizing: border-box;
+  margin: 0 0 0 8px;
+  width: 50px;
+  text-align: start;
+  font-family: "Proxima Nova", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.icon {
+  box-sizing: border-box;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 14px;
+  right: 15px;
+}
+
+.buttonWrap {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  box-sizing: border-box;
+  top: 1px;
+  right: 1px;
+  width: 146px;
+  height: 52px;
+  background: #EDEDEF;
+  border-radius: 0 15px 15px 0;
+  border: 0;
+}
+
+.iconButton {
+  width: 25px;
+  height: 25px;
+  margin-left: 19px;
+}
+
+.arrowIconWrap {
+  position: absolute;
+  right: 20px;
+}
+
+/*# sourceMappingURL=Input.module.css.map */
