@@ -1,5 +1,5 @@
 import React from 'react'
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, Navigate } from 'react-router-dom'
 import './App.module.scss'
 import { About } from './pages/About/About'
 import { Layout } from './components/Layout/Layout'
@@ -11,7 +11,6 @@ import { BuyCrypto } from './pages/BuyCrypto/BuyCrypto'
 function App () {
   return (
     <Routes>
-      <Route path="buy-crypto/usd/*" element={<NotFound/>}/>
       <Route path="/" element={<Layout/>}>
         <Route index element={<Main/>}/>
         <Route path="about" element={<About/>} />
@@ -20,12 +19,9 @@ function App () {
         <Route path="crypto" element={<BuyCrypto/>}>
            <Route path=":cryptoOption/:currencyBuy/:currencySell" element= {<BuyCrypto/>} />
         </Route>
-        <Route path="*" element={<NotFound/>} />
+        <Route path="*" element={<Navigate to="/" /> } />
       </Route>
     </Routes>
   )
 }
 export default App
-export const NotFound = () => {
-  return <div>404</div>
-}
