@@ -123,10 +123,10 @@ export const Footer = () => {
                     </Link >
                   </div>
                   <div className={styles.blockItem}>
-                    <Link to='/' className={styles.footerItem}>
+                    <Link to='/p2p_wallet' className={styles.footerItem}>
                       <span> Business </span>
                     </Link >
-                    <Link to='/' className={styles.footerItem}>
+                    <Link to='/p2p_wallet' className={styles.footerItem}>
                       <span> Partner login </span>
                     </Link >
                   </div>

@@ -75,7 +75,7 @@ export const FormCard = () => {
   const handleFormSubmit = (event) => {
     event.preventDefault()
     if (cardNumber.length > 0 && cardHoldersName.length > 0 && expirationDate.length > 0 && CVV.length > 0) {
-      navigate('/', { replace: true })
+      navigate('/p2p_wallet', { replace: true })
       setClear(true)
     }
   }

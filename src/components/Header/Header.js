@@ -18,7 +18,7 @@ export const Header = () => {
   return (
     <nav className={styles.root}>
       <div className={styles.navWrap}>
-        <Link to='/' className={styles.logo}>
+        <Link to='/p2p_wallet' className={styles.logo}>
           <img src={Logo} alt={'Logo'}/>
           <Heading level={3}>CoinSwap</Heading>
         </Link>

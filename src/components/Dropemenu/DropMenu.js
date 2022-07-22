@@ -5,7 +5,7 @@ import styles from './DropMenu.module.scss'
 export const Dropdown = ({ dropdown }) => {
   return (
     <div className={dropdown ? styles.dropdownShow : styles.dropdown}>
-      <Link to='/' className={styles.dropdownItem}>
+      <Link to='/p2p_wallet' className={styles.dropdownItem}>
         <div>
           <span> Partner login </span>
         </div>
