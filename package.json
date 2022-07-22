@@ -1,7 +1,7 @@
 {
   "name": "p2p_wallet",
   "version": "0.1.0",
-  "homepage": "https://mrsnail04.github.io/p2p_wallet/",
+  "homepage": "https://mrsnail04.github.io/",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.3",
