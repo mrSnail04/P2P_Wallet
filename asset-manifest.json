@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/p2p_wallet/static/css/main.eb9f2b30.css",
-    "main.js": "/p2p_wallet/static/js/main.fd440bc6.js",
-    "static/media/mainImage.png": "/p2p_wallet/static/media/mainImage.3d8b7d893059ed812fe7.png",
-    "static/media/USDIcon.svg": "/p2p_wallet/static/media/USDIcon.888ea7dcdebc9631fb005c01b9367a7c.svg",
-    "static/media/ETHIcon.svg": "/p2p_wallet/static/media/ETHIcon.191da9b70c16e19007ebeeb74f05176e.svg",
-    "static/media/BTCIcon.svg": "/p2p_wallet/static/media/BTCIcon.324727f30f44cfeef153efa2e88b4a62.svg",
-    "static/media/USDTIcon.svg": "/p2p_wallet/static/media/USDTIcon.5d943994d0486df80162bf239b14fac2.svg",
-    "static/media/BinanceCoinIcon.svg": "/p2p_wallet/static/media/BinanceCoinIcon.e7367044bfc1722ba85ecdbd9e894d51.svg",
-    "static/media/BinanceUSDIcon.svg": "/p2p_wallet/static/media/BinanceUSDIcon.c3a8fee506742d82ebbc708d563f8740.svg",
-    "static/media/USDCoinIcon.svg": "/p2p_wallet/static/media/USDCoinIcon.5bb6b12219d708e70103e935a06d06e6.svg",
-    "static/media/checkbox.svg": "/p2p_wallet/static/media/checkbox.e64beebeba0066f75043.svg",
-    "static/media/Search.svg": "/p2p_wallet/static/media/Search.db31e7979d4d165482883963f62c2579.svg",
-    "index.html": "/p2p_wallet/index.html",
-    "static/media/watch.svg": "/p2p_wallet/static/media/watch.5aba87bc9b5087d2b3a549e75e4d6a8d.svg",
-    "static/media/Close.svg": "/p2p_wallet/static/media/Close.eb7c05e03232277ab10eaab0a8c63c62.svg",
-    "static/media/Arrow.svg": "/p2p_wallet/static/media/Arrow.41c73a533c3b28d510bb76252949509a.svg",
-    "main.eb9f2b30.css.map": "/p2p_wallet/static/css/main.eb9f2b30.css.map",
-    "main.fd440bc6.js.map": "/p2p_wallet/static/js/main.fd440bc6.js.map"
+    "main.css": "/static/css/main.ce4f570b.css",
+    "main.js": "/static/js/main.630f4b3a.js",
+    "static/media/mainImage.png": "/static/media/mainImage.3d8b7d893059ed812fe7.png",
+    "static/media/USDIcon.svg": "/static/media/USDIcon.888ea7dcdebc9631fb005c01b9367a7c.svg",
+    "static/media/ETHIcon.svg": "/static/media/ETHIcon.191da9b70c16e19007ebeeb74f05176e.svg",
+    "static/media/BTCIcon.svg": "/static/media/BTCIcon.324727f30f44cfeef153efa2e88b4a62.svg",
+    "static/media/USDTIcon.svg": "/static/media/USDTIcon.5d943994d0486df80162bf239b14fac2.svg",
+    "static/media/BinanceCoinIcon.svg": "/static/media/BinanceCoinIcon.e7367044bfc1722ba85ecdbd9e894d51.svg",
+    "static/media/BinanceUSDIcon.svg": "/static/media/BinanceUSDIcon.c3a8fee506742d82ebbc708d563f8740.svg",
+    "static/media/USDCoinIcon.svg": "/static/media/USDCoinIcon.5bb6b12219d708e70103e935a06d06e6.svg",
+    "static/media/checkbox.svg": "/static/media/checkbox.e64beebeba0066f75043.svg",
+    "static/media/Search.svg": "/static/media/Search.db31e7979d4d165482883963f62c2579.svg",
+    "index.html": "/index.html",
+    "static/media/watch.svg": "/static/media/watch.5aba87bc9b5087d2b3a549e75e4d6a8d.svg",
+    "static/media/Close.svg": "/static/media/Close.eb7c05e03232277ab10eaab0a8c63c62.svg",
+    "static/media/Arrow.svg": "/static/media/Arrow.41c73a533c3b28d510bb76252949509a.svg",
+    "main.ce4f570b.css.map": "/static/css/main.ce4f570b.css.map",
+    "main.630f4b3a.js.map": "/static/js/main.630f4b3a.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb9f2b30.css",
-    "static/js/main.fd440bc6.js"
+    "static/css/main.ce4f570b.css",
+    "static/js/main.630f4b3a.js"
   ]
 }
