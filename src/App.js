@@ -12,8 +12,8 @@ function App () {
   const navigate = useNavigate()
   return (
     <Routes>
-      <Route path="/" element={<Layout/>}>
-        <Route index element={<Main/>}/>
+      <Route element={<Layout/>}>
+        <Route path="/" element={<Main/>}/>
         <Route path="about" element={<About/>} />
         <Route path="careers" element={<Careers/>} />
         <Route path="help" element={<Help/>} />
