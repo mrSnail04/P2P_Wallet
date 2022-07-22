@@ -12,7 +12,7 @@ function App () {
   return (
     <Routes>
       <Route path="/" element={<Layout/>}>
-        <Route path="/p2p_wallet" element={<Main/>}/>
+        <Route path="p2p_wallet" element={<Main/>}/>
         <Route path="about" element={<About/>} />
         <Route path="careers" element={<Careers/>} />
         <Route path="help" element={<Help/>} />
