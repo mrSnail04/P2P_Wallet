@@ -27,16 +27,16 @@ export const currencyType = {
 }
 
 export const listBuyCurrency = {
-  BTC: { name: 'BTC', fullName: 'Bitcoin', icon: inputTypeIcons.BTC },
-  BNB: { name: 'BNB', fullName: 'Binance Coin(BEP-20)', icon: inputTypeIcons.BNB },
-  ETH: { name: 'ETH', fullName: 'Ethereum', icon: inputTypeIcons.ETH },
-  USDT: { name: 'USDT', fullName: 'Tether(TRC-20)', icon: inputTypeIcons.USDT },
-  USDC: { name: 'USDC', fullName: 'USD Coin', icon: inputTypeIcons.USDC },
-  BUSD: { name: 'BUSD', fullName: 'Binance USD', icon: inputTypeIcons.BUSD }
+  BTC: { name: 'BTC', fullName: 'Bitcoin', icon: inputTypeIcons.BTC, focus: false },
+  BNB: { name: 'BNB', fullName: 'Binance Coin(BEP-20)', icon: inputTypeIcons.BNB, focus: false },
+  ETH: { name: 'ETH', fullName: 'Ethereum', icon: inputTypeIcons.ETH, focus: false },
+  USDT: { name: 'USDT', fullName: 'Tether(TRC-20)', icon: inputTypeIcons.USDT, focus: false },
+  USDC: { name: 'USDC', fullName: 'USD Coin', icon: inputTypeIcons.USDC, focus: false },
+  BUSD: { name: 'BUSD', fullName: 'Binance USD', icon: inputTypeIcons.BUSD, focus: false }
 }
 export const listSellCurrency = {
-  USD: { name: 'USD', fullName: 'USD', icon: inputTypeIcons.USD },
-  USDT: { name: 'USDT', fullName: 'Tether(TRC-20)', icon: inputTypeIcons.USDT }
+  USD: { name: 'USD', fullName: 'USD', icon: inputTypeIcons.USD, focus: false },
+  USDT: { name: 'USDT', fullName: 'Tether(TRC-20)', icon: inputTypeIcons.USDT, focus: false }
 }
 export const BuyCrypto = () => {
   const dispatch = useDispatch()
