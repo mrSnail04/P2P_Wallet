@@ -33,9 +33,9 @@
 }
 .infoItem{
     display: table;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: rgba(255, 255, 255, 0);
     background: -webkit-linear-gradient(top right, rgb(223, 247, 160) 5%, #C9E3F8, #E4BECF);
+    -webkit-background-clip: text;
+    color: rgba(255, 255, 255, 0);
     font-family: 'Proxima Nova', sans-serif;
     font-style: normal;
     font-weight: 500;
