@@ -33,7 +33,8 @@
 }
 .infoItem{
     display: table;
-    background: -webkit-linear-gradient(top right, rgba(255, 255, 255, 0), rgb(223, 247, 160, 1) 5%, #C9E3F8, #E4BECF);
+    background-clip: content-box;
+    background: -webkit-linear-gradient(top right, rgba(255, 255, 255, 0), rgb(223, 247, 160, 1) 5%, rgb(201, 227, 248, 1), rgb(228, 190, 207, 1));
     -webkit-background-clip: text;
     color: rgba(255, 255, 255, 0);
     font-family: 'Proxima Nova', sans-serif;
