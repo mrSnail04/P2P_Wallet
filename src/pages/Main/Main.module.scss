@@ -58,9 +58,10 @@
   }
 }
 .getStartedBlock{
-  margin-top: 19px;
+  margin: 19px 0 0 auto;
   box-sizing: border-box;
-  margin-left: 40px;
+  //margin-left: auto;
+  //margin-right: 0;
   text-align: center;
   height: 334px;
   width: 1320px;
