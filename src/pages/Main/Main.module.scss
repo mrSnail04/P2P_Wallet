@@ -7,7 +7,7 @@
 .mainWrap{
   display: flex;
   flex-direction: column;
-  align-items: end;
+  //align-items: end;
 }
 .mainTitleWrap{
   display: flex;
@@ -60,6 +60,7 @@
 .getStartedBlock{
   margin-top: 19px;
   box-sizing: border-box;
+  margin-left: 40px;
   text-align: center;
   height: 334px;
   width: 1320px;
