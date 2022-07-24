@@ -31,3 +31,10 @@
 .colorWhite{
     color: #FFFFFF;
 }
+@media screen and (max-width: 700px){
+    .level1{
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 61px;
+    }
+}

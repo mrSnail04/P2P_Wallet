@@ -1,0 +1,50 @@
+.root{
+
+}
+.menuWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.menuItem {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  width: 290px;
+  margin: 10px 0 0 0;
+  height: 50px;
+  border: 0;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+  div{
+    display: flex;
+    margin-right: 10px;
+    width: 120px;
+    height: 30px;
+    background: #F0F0F0;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  span{
+    font-family: 'Proxima Nova', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+  }
+  img{
+    margin-left: 200px;
+  }
+  &.dropdown{
+    border-bottom: 1px solid #BBBBBB;;
+  }
+  &.dropdownHide{
+    display: none;
+  }
+}

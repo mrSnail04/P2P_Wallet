@@ -2,6 +2,7 @@ import { createSlice } from '@reduxjs/toolkit'
 import { cutZero } from '../utils/CutZero'
 
 const initialState = {
+  openHamburger: false,
   countBuy: '',
   countSell: '',
   typeBuy: 'btc',
@@ -18,6 +19,9 @@ export const countSlice = createSlice({
   name: 'count',
   initialState,
   reducers: {
+    changeOpenHamburger: (state, action) => {
+      state.openHamburger = action.payload
+    },
     updateWalletAddress: (state, action) => {
       state.walletAddress = action.payload
     },
@@ -73,6 +77,7 @@ export const countSlice = createSlice({
   }
 })
 
+export const openHamburgerSelector = (state) => state.count.openHamburger
 export const typeBuySelector = (state) => state.count.typeBuy
 export const typeSellSelector = (state) => state.count.typeSell
 export const countSellSelector = (state) => state.count.countSell
@@ -95,7 +100,8 @@ export const {
   updateCardNumber,
   updateCardHoldersName,
   updateExpirationDate,
-  updateCVV
+  updateCVV,
+  changeOpenHamburger
 } = countSlice.actions
 
 export default countSlice.reducer

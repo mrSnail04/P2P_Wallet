@@ -3,6 +3,8 @@ import cn from 'classnames'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import { CheckBox } from '../CheckBox/CheckBox'
 import styles from './Footer.module.scss'
+import { useSelector } from 'react-redux'
+import { openHamburgerSelector } from '../../store/countSlice'
 
 export const Footer = () => {
   const listCurrency = [
@@ -15,7 +17,7 @@ export const Footer = () => {
   ]
   const navigate = useNavigate()
   const { cryptoOption, currencyBuy, currencySell } = useParams()
-
+  const openHamburger = useSelector(openHamburgerSelector)
   if (cryptoOption === 'buy') {
     if (currencyBuy) {
       // eslint-disable-next-line no-lone-blocks,array-callback-return
@@ -81,7 +83,7 @@ export const Footer = () => {
     }
   }
   return (
-    <div className={styles.root}>
+    <div className={cn(styles.root, { [styles.hide]: openHamburger })}>
       <div className={styles.footerWrap}>
         <div className={styles.footerBlocks}>
           {window.location.href.indexOf('crypto') !== -1

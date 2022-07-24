@@ -1,19 +1,23 @@
 import React, { useState } from 'react'
+import cn from 'classnames'
 import Logo from '../../assets/images/Logo_Header.png'
 import arrow from '../../assets/icons/Arrow.svg'
 import Heading from '../Heading/Heading'
 import { Link } from 'react-router-dom'
 import { Dropdown } from '../Dropemenu/DropMenu'
 import styles from './Header.module.scss'
-import { useDispatch } from 'react-redux'
-import { changePage } from '../../store/countSlice'
+import { useDispatch, useSelector } from 'react-redux'
+import { changeOpenHamburger, changePage, openHamburgerSelector } from '../../store/countSlice'
 
 export const Header = () => {
   const dispatch = useDispatch()
-
+  const openHamburger = useSelector(openHamburgerSelector)
   const [dropdown, setDropdown] = useState(false)
   const handleBuyCryptoClick = () => {
     dispatch(changePage('1'))
+  }
+  const handleHamburgerClick = () => {
+    dispatch(changeOpenHamburger(!openHamburger))
   }
   return (
     <nav className={styles.root}>
@@ -22,6 +26,12 @@ export const Header = () => {
           <img src={Logo} alt={'Logo'}/>
           <Heading level={3}>CoinSwap</Heading>
         </Link>
+        <div className={styles.hamburgerWrap}>
+          <button
+            onClick={handleHamburgerClick}
+            className={cn(styles.hamburgerButton, { [styles.close]: openHamburger })}
+          />
+        </div>
         <div className={styles.menuWrap}>
           <div className={styles.groupeOneWrap}>
             <Link to='/crypto/buy/btc/usd' onClick={handleBuyCryptoClick} className={styles.menuItem}>

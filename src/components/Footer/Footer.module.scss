@@ -161,3 +161,46 @@
     color: #000000;
   }
 }
+@media screen and (max-width: 700px) {
+  .root{
+    &.hide{
+      display: none;
+    }
+  }
+  .mainFooter{
+    width: 341px;
+    flex-direction: column;
+  }
+  .footerBlockOne{
+    padding: 0 0 34px 0;
+    border: 0;
+    border-bottom: 1px solid #FFFFFF;
+  }
+  .footerNav{
+    justify-content: space-between;
+  }
+  .blockItem{
+    margin-right: 0;
+  }
+  .footerBlockTwo{
+    padding: 34px 0 0 0 ;
+    margin: 0;
+  }
+  .copyrightBlock{
+    margin: 45px 0 0 0;
+    width: 100%;
+    p{
+      font-weight: 400;
+      font-size: 11px;
+      line-height: 14px;
+    }
+  }
+  .subscribeInput{
+    width: 100%;
+  }
+  .footerButton{
+    margin: 15px 0 50px 0;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}

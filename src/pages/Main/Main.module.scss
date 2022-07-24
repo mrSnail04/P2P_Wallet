@@ -60,8 +60,6 @@
 .getStartedBlock{
   margin-top: 19px;
   box-sizing: border-box;
-  //margin-left: auto;
-  //margin-right: 0;
   text-align: center;
   height: 334px;
   width: 1320px;
@@ -85,4 +83,58 @@
 .buttonWrap{
   width: 301px;
   height: 51px;
+}
+@media screen and (max-width: 700px) {
+  .root{
+    width: 100%;
+    margin-top: 60px;
+    padding-right: 0;
+  }
+  .mainWrap{
+    align-items: center;
+    width: 335px;
+  }
+  .mainTitleWrap{
+    flex-direction: column;
+    width: 100%;
+  }
+  .mainTitle{
+    width: 100%;
+    p{
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+  .trustpilot{
+    p{
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 18px;
+    }
+    img{
+      width: 56px;
+      height: 30px;
+    }
+  }
+  .imageWrap{
+    width: 335px;
+    height: 279px;
+    margin-top: 60px;
+    img{
+      width: 334px;
+      height: 334px;
+      top: -65px;
+      left: -15px;
+    }
+  }
+  .getStartedBlock{
+    width: 100%;
+    height: auto;
+  }
+  .buttonGetStartedWrap{
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
 }

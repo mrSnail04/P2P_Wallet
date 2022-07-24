@@ -1,5 +1,5 @@
-import React from 'react'
-import { Routes, Route } from 'react-router-dom'
+import React, { useEffect } from 'react'
+import { Routes, Route, useLocation } from 'react-router-dom'
 import './App.module.scss'
 import { About } from './pages/About/About'
 import { Layout } from './components/Layout/Layout'
@@ -9,6 +9,11 @@ import { Help } from './pages/Help/Help'
 import { BuyCrypto } from './pages/BuyCrypto/BuyCrypto'
 
 function App () {
+  const { pathname } = useLocation()
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pathname])
+
   return (
     <Routes>
       <Route path="/" element={<Layout/>}>

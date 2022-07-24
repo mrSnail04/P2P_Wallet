@@ -27,3 +27,16 @@
   color: #FFFFFF;
   background: url(../../assets/icons/checkbox.svg);
 }
+@media (max-width: 900px) {
+  .checkboxWrap{
+    margin-bottom: 15px;
+    width: 341px;
+    p{
+      width: 100%;
+      height: auto;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+}
