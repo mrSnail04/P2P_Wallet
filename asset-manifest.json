@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/p2p_wallet/static/css/main.d459fd21.css",
+    "main.css": "/p2p_wallet/static/css/main.948b687c.css",
     "main.js": "/p2p_wallet/static/js/main.809e7631.js",
     "static/media/mainImage.png": "/p2p_wallet/static/media/mainImage.3d8b7d893059ed812fe7.png",
     "static/media/USDIcon.svg": "/p2p_wallet/static/media/USDIcon.888ea7dcdebc9631fb005c01b9367a7c.svg",
@@ -16,11 +16,11 @@
     "static/media/watch.svg": "/p2p_wallet/static/media/watch.5aba87bc9b5087d2b3a549e75e4d6a8d.svg",
     "static/media/Close.svg": "/p2p_wallet/static/media/Close.eb7c05e03232277ab10eaab0a8c63c62.svg",
     "static/media/Arrow.svg": "/p2p_wallet/static/media/Arrow.41c73a533c3b28d510bb76252949509a.svg",
-    "main.d459fd21.css.map": "/p2p_wallet/static/css/main.d459fd21.css.map",
+    "main.948b687c.css.map": "/p2p_wallet/static/css/main.948b687c.css.map",
     "main.809e7631.js.map": "/p2p_wallet/static/js/main.809e7631.js.map"
   },
   "entrypoints": [
-    "static/css/main.d459fd21.css",
+    "static/css/main.948b687c.css",
     "static/js/main.809e7631.js"
   ]
 }
