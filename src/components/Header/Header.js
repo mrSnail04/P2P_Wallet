@@ -38,7 +38,7 @@ export const Header = () => {
           />
         </div>
         <div className={styles.menuWrap}>
-          <div className={styles.groupeOneWrap}>
+          <div className={styles.groupOneWrap}>
             <Link to='/crypto/buy/btc/usd' onClick={handleBuyCryptoClick} className={styles.menuItem}>
               <span> Buy crypto </span>
             </Link >
@@ -51,7 +51,7 @@ export const Header = () => {
               <Dropdown dropdown={dropdown}/>
             </button>
           </div>
-          <div className={styles.groupeTwoWrap}>
+          <div className={styles.groupTwoWrap}>
             <Link to='/about' className={styles.menuItem}>
               <span> About us </span>
             </Link >

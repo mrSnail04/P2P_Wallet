@@ -14,10 +14,12 @@
     align-items: center;
     margin-right: 55px;
     img{
+        width: 32px;
+        height: 36px;
         margin-right: 3px;
     }
 }
-.groupeOneWrap {
+.groupOneWrap {
     width: 210px;
     display: flex;
     align-items: center;
@@ -27,7 +29,7 @@
         position: relative;
     }
 }
-.groupeTwoWrap {
+.groupTwoWrap {
     width: 335px;
     display: flex;
     align-items: center;
@@ -49,6 +51,10 @@
     font-size: 16px;
     line-height: 19px;
     color: #000000;
+    img{
+        width: 10px;
+        height: 8px;
+    }
 }
 .hamburgerWrap{
     display: none;
