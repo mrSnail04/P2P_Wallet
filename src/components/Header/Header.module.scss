@@ -76,13 +76,14 @@
 }
 
 @media screen and (max-width: 700px) {
+    .navWrap{
+        width: 361px;
+        justify-content: space-between;
+    }
     .menuWrap{
         display: none;
     }
     .hamburgerWrap{
         display: flex;
-    }
-    .logo{
-        margin-right: 100px;
     }
 }
