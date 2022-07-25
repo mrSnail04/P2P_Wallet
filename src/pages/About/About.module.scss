@@ -1,3 +1,7 @@
+.root{
+    display: flex;
+    justify-content: center;
+}
 .aboutWrap{
     display: flex;
     align-items: center;
@@ -26,7 +30,6 @@
     height: 250px;
     background: #000000;
     border-radius: 30px;
-
 }
 .infoBlock{
     height: 120px;
@@ -69,5 +72,59 @@
         line-height: 30px;
         text-align: center;
         color: #000000;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .aboutWrap{
+        width: 335px;
+        text-align: center;
+        align-items: center;
+    }
+    .description{
+        width: 100%;
+        p{
+            margin-top: 0;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+    .headingFirst{
+        margin-bottom: 33px;
+    }
+    .headingSecond{
+        width: 356px;
+        h1{
+            font-weight: 700;
+            font-size: 47px;
+            line-height: 57px;
+        }
+        p{
+            margin: 33px 0 31px 0;
+            width: 100%;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+    .infoAbout{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 40px;
+        width: 100%;
+        height: auto;
+    }
+    .infoBlock{
+        margin-top: 40px;
+        height: auto;
+    }
+    .infoItem{
+        text-align: center;
+    }
+    .infoItemDescription{
+        text-align: center;
+        margin: 20px 0 0 0;
     }
 }

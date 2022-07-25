@@ -19,10 +19,15 @@ export const Header = () => {
   const handleHamburgerClick = () => {
     dispatch(changeOpenHamburger(!openHamburger))
   }
+  const handleLinkClick = () => {
+    if (openHamburger) {
+      dispatch(changeOpenHamburger(!openHamburger))
+    }
+  }
   return (
     <nav className={styles.root}>
       <div className={styles.navWrap}>
-        <Link to='/p2p_wallet' className={styles.logo}>
+        <Link to='/p2p_wallet' className={styles.logo} onClick={handleLinkClick}>
           <img src={Logo} alt={'Logo'}/>
           <Heading level={3}>CoinSwap</Heading>
         </Link>

@@ -84,7 +84,7 @@ export const FormCard = () => {
     dispatch(changePage('2'))
   }
   return (
-    <div>
+    <div className={styles.root}>
       <form onSubmit={handleForm}>
         <div className={styles.titleWrapBlock}>
           <p className={styles.titleWrap}>

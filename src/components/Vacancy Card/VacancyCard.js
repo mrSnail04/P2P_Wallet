@@ -10,7 +10,7 @@ export const VacancyCard = () => {
     <>
       {arr.map((item, index) => {
         return (
-          <div key={index}>
+          <div key={index} className={styles.vacancyBlock}>
             <Heading level={4}> {item.name} </Heading>
             <div>
               {item.value.map(vacancy => {

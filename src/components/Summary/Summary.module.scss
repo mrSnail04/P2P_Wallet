@@ -1,5 +1,5 @@
 .summaryWrap{
-    width: 351px;
+    width: 100%;
 }
 .summary{
     height: 54px;
@@ -53,5 +53,28 @@
 }
 .counterWrap{
     display: flex;
+
+}
+@media screen and (max-width: 700px) {
+    .title{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .priceRenewal{
+        font-size: 12px;
+        line-height: 15px;
+        img{
+            width: 9px;
+            height: 9px;
+            margin: 2px 7px 0 0;
+        }
+    }
+    .summary{
+        height: 45px;
+        p{
+            font-size: 13px;
+            line-height: 16px;
+        }
+    }
 
 }

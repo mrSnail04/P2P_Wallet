@@ -203,4 +203,19 @@
     flex-direction: column-reverse;
     align-items: center;
   }
+  .quickBuyWrap{
+    border: 0;
+    padding: 0;
+    margin-bottom: 40px;
+  }
+  .buttonBlock{
+    width: 341px;
+    display: block;
+    column-gap: 20px;
+    column-count: 2;
+  }
+  .button{
+    width: 157px;
+    margin-bottom: 14px;
+  }
 }

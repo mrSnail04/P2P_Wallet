@@ -12,7 +12,7 @@
         margin: 23px 0 37px 0;
         font-family: 'Proxima Nova', sans-serif;
         font-style: italic;
-        font-weight: 200;
+        font-weight: 250;
         font-size: 25px;
         line-height: 30px;
         color: #000000;
@@ -51,6 +51,35 @@
             font-size: 20px;
             line-height: 24px;
             color: #000000;
+        }
+    }
+}
+@media screen and (max-width: 700px) {
+    .helpWrap{
+        width: 341px;
+    }
+    .helpHeading{
+        p{
+            margin: 41px 0 56px 0;
+            font-size: 19px;
+            line-height: 23px;
+        }
+    }
+    .question{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .answer{
+        font-size: 15px;
+        line-height: 18px;
+        margin-top: 22px;
+    }
+    .cryptocurrencies{
+        ul{
+            li{
+                font-size: 15px;
+                line-height: 18px;
+            }
         }
     }
 }

@@ -1,5 +1,5 @@
 .walletWrap{
-
+    width: 351px;
 }
 .titleWrapBlock{
     display: flex;
@@ -42,7 +42,7 @@
     color: #000000;
 }
 .buttonWrap{
-    margin: 30px 0 72px 0;
+    margin: 27px 0 72px 0;
     height: 60px;
 }
 .warningBlock{
@@ -52,7 +52,7 @@
     padding: 18px 22px 22px 25px;
     background: #FBEFED;
     border-radius: 15px;
-    margin-bottom: 23px;
+    margin-bottom: 20px;
 }
 .warningTitle{
     margin: 0;
@@ -72,4 +72,36 @@
     font-size: 15px;
     line-height: 18px;
     color: #000000;
+}
+@media screen and (max-width: 700px) {
+    .walletWrap{
+        width: 280px;
+    }
+    .titleWrapBlock{
+        margin-bottom: 30px;
+    }
+    .titleWrap{
+        font-size: 21px;
+        line-height: 26px;
+    }
+    .titleDescription{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .warningBlock{
+        width: 100%;
+        height: 140px;
+        margin-bottom: 24px;
+    }
+    .warningTitle{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .warningDescription{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .buttonWrap{
+        height: 50px;
+    }
 }

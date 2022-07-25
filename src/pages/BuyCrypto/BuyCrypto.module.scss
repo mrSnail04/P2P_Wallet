@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 56px 0 37px 0;
+    margin-top: 56px;
 }
 .buyCryptoWrap{
     display: flex;
@@ -26,5 +26,26 @@
         line-height: 22px;
         color: #000000;
         margin-right: 4px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .root{
+
+    }
+    .buyCryptoWrap{
+        width: 341px;
+        height: 600px;
+    }
+    .trustpilot{
+        margin-bottom: 30px;
+        p{
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 18px;
+            }
+        img{
+            width: 56px;
+            height: 30px;
+        }
     }
 }

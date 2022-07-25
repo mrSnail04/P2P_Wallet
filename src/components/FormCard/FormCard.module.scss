@@ -1,6 +1,9 @@
+.root{
+    width: 351px;
+}
 .titleWrapBlock{
     display: flex;
-    margin: 35px 0 30px 0;
+    margin: 35px 0 17px 0;
 }
 .titleWrap{
     display: flex;
@@ -27,4 +30,16 @@
 }
 .buttonWrap{
     height: 60px;
+}
+@media screen and (max-width: 700px) {
+    .root{
+        width: 280px;
+    }
+    .titleWrap{
+        font-size: 21px;
+        line-height: 26px;
+    }
+    .buttonWrap{
+        height: 50px;
+    }
 }

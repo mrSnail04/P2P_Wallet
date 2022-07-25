@@ -31,7 +31,7 @@ export const Careers = () => {
             Current openings
           </p>
         </div>
-        <div>
+        <div className={styles.vacancyBlock}>
           <VacancyCard/>
         </div>
       </div>

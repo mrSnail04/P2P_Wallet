@@ -1,10 +1,10 @@
 .inputWrap{
     display: flex;
     position: relative;
-    width: 351px;
+    width: 100%;
     box-sizing:border-box;
     height: 54px;
-    margin: 10px 0 33px 0;
+    margin: 8px 0 30px 0;
     input{
         outline:none;
         box-sizing: border-box;
@@ -93,4 +93,43 @@
 .arrowIconWrap{
     position: absolute;
     right: 20px;
+}
+@media screen and (max-width: 700px) {
+    .inputWrap{
+        height: 45px;
+        margin-bottom: 25px;
+        input{
+            height: 45px;
+            font-size: 15px;
+            line-height: 18px;
+            &::-webkit-input-placeholder{
+                font-size: 15px;
+                line-height: 18px;
+            }
+        }
+    }
+    .icon{
+        width: 20px;
+        height: 20px;
+    }
+    .label{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .buttonWrap{
+        width: 120px;
+        height: 43px;
+    }
+    .iconButton{
+        width: 20px;
+        height: 20px;
+        margin-left: 15px;
+    }
+    .currencyName{
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .arrowIconWrap{
+        right: 15px;
+    }
 }
