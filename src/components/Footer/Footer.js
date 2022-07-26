@@ -117,10 +117,10 @@ export const Footer = () => {
               <div className={styles.footerBlockOne}>
                 <div className={styles.footerNav}>
                   <div className={styles.blockItem}>
-                    <Link to='/crypto/buy/btc/usd' className={styles.footerItem}>
+                    <Link to='/p2p_wallet/crypto/buy/btc/usd' className={styles.footerItem}>
                       <span> Buy crypto </span>
                     </Link >
-                    <Link to='/careers' className={styles.footerItem}>
+                    <Link to='/p2p_wallet/careers' className={styles.footerItem}>
                       <span> Careers </span>
                     </Link >
                   </div>
@@ -133,10 +133,10 @@ export const Footer = () => {
                     </Link >
                   </div>
                   <div className={styles.blockItem}>
-                    <Link to='/about' className={styles.footerItem}>
+                    <Link to='/p2p_wallet/about' className={styles.footerItem}>
                       <span> About us </span>
                     </Link >
-                    <Link to='/help' className={styles.footerItem}>
+                    <Link to='/p2p_wallet/help' className={styles.footerItem}>
                       <span> Help Center </span>
                     </Link >
                   </div>

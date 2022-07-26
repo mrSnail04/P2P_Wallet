@@ -20,7 +20,7 @@ export const Main = () => {
               with P2P, buy and sell instantly
             </p>
             <Button
-              url={'/crypto/buy/btc/usd'}
+              url={'/p2p_wallet/crypto/buy/btc/usd'}
               title={'Buy crypto'}
               size={buttonSize.Small}
             />
@@ -45,7 +45,7 @@ export const Main = () => {
                 <Button
                   color={'White'}
                   typeCurrency={buttonType.BTC}
-                  url={'/crypto/buy/btc/usd'}
+                  url={'/p2p_wallet/crypto/buy/btc/usd'}
                   title={'Buy Bitcoin'}
                   size={buttonSize.BlockSize}
                 />
@@ -54,7 +54,7 @@ export const Main = () => {
                 <Button
                   color={'White'}
                   typeCurrency={buttonType.USDT}
-                  url={'/crypto/buy/usdt/usd'}
+                  url={'/p2p_wallet/crypto/buy/usdt/usd'}
                   title={'Buy Tether'}
                   size={buttonSize.BlockSize}
                 />
@@ -65,7 +65,7 @@ export const Main = () => {
                 <Button
                   color={'White'}
                   typeCurrency={buttonType.ETH}
-                  url={'/crypto/buy/eth/usd'}
+                  url={'/p2p_wallet/crypto/buy/eth/usd'}
                   title={'Buy Ethereum'}
                   size={buttonSize.BlockSize}
                 />
@@ -74,7 +74,7 @@ export const Main = () => {
                 <Button
                   color={'White'}
                   typeCurrency={buttonType.USDC}
-                  url={'/crypto/buy/usdc/usd'}
+                  url={'/p2p_wallet/crypto/buy/usdc/usd'}
                   title={'Buy USD Coin'}
                   size={buttonSize.BlockSize}
                 />
@@ -85,7 +85,7 @@ export const Main = () => {
                 <Button
                   color={'White'}
                   typeCurrency={buttonType.BNB}
-                  url={'/crypto/buy/bnb/usd'}
+                  url={'/p2p_wallet/crypto/buy/bnb/usd'}
                   title={'Buy Binance Coin'}
                   size={buttonSize.BlockSize}
                 />
@@ -94,7 +94,7 @@ export const Main = () => {
                 <Button
                   color={'White'}
                   typeCurrency={buttonType.BUSD}
-                  url={'/crypto/buy/busd/usd'}
+                  url={'/p2p_wallet/crypto/buy/busd/usd'}
                   title={'Buy Binance USD'}
                   size={buttonSize.BlockSize}
                 />

@@ -39,7 +39,7 @@ export const Header = () => {
         </div>
         <div className={styles.menuWrap}>
           <div className={styles.groupOneWrap}>
-            <Link to='/crypto/buy/btc/usd' onClick={handleBuyCryptoClick} className={styles.menuItem}>
+            <Link to='/p2p_wallet/crypto/buy/btc/usd' onClick={handleBuyCryptoClick} className={styles.menuItem}>
               <span> Buy crypto </span>
             </Link >
             <button
@@ -52,13 +52,13 @@ export const Header = () => {
             </button>
           </div>
           <div className={styles.groupTwoWrap}>
-            <Link to='/about' className={styles.menuItem}>
+            <Link to='/p2p_wallet/about' className={styles.menuItem}>
               <span> About us </span>
             </Link >
-            <Link to='/careers' className={styles.menuItem}>
+            <Link to='/p2p_wallet/careers' className={styles.menuItem}>
               <span> Careers </span>
             </Link>
-            <Link to='/help' className={styles.menuItem}>
+            <Link to='/p2p_wallet/help' className={styles.menuItem}>
               <span> Help Center </span>
             </Link>
           </div>
